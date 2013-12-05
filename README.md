@@ -9,6 +9,6 @@ The following step explain how this application work.
 
 1. When user input several key, i mean, user type several alphabet on keyboard. AngularJS will respone this event.
 2. AngularJS will send XHR (XmlHTTPRequest) to server for get some data accoriding with user input string.
-3. PHP will catch a GET Verb with value from Client (AngularJS). PHP will connect to MySQL and search some related data. if data isn't null or not empty. PHP will encode the data to JSON form and send back to Client asyncrounsly 
+3. PHP will catch a GET Verb with value from Client (AngularJS). PHP will connect to MySQL and search some related data. if data isn't null or not empty. PHP will encode the data to JSON form and send back to Client asynchronously 
 
 
